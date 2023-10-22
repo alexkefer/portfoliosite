@@ -1,0 +1,251 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.App-header {
+  background-color: #191b20;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+/* heading and navbar */
+.heading {
+  /* place heading at the top of the page to navigate the webpage*/
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #171a1f;
+  display: flex;
+  justify-content:left;
+  align-items: center;
+  padding: 10px 10px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #207720;
+}
+
+.heading img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+}
+
+.heading h1 {
+  margin: 0;
+  color: white;
+  font-size: 24px;
+  display: inline-block;
+  margin-left: 10px;
+  text-align: left;
+}
+
+.heading nav {
+  margin-left: auto;
+}
+
+.header-image {
+  width: 100%;
+  height: 40vh;
+  object-fit: cover;
+  position: block;
+}
+
+.header-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.heading button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.heading button:hover {
+  text-decoration: underline;
+}
+
+/* main content */
+
+.about {
+  margin-top: 50px;
+  padding: 0 50px;
+  box-sizing: border-box;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: justify;
+  background-color: #282c34;
+  color: white;
+}
+
+.classes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 50px;
+  padding: 0 50px;
+  box-sizing: border-box;
+}
+
+.classes .class {
+  width: 24.3%;
+  max-width: auto;
+  background-color: #35373b;
+  margin-bottom: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+  color: white;
+}
+
+.classes .class:hover {
+  background-color: #2a4629;
+  transition: background-color 0.5s ease-in-out;
+  transform: scale(1.1);
+  transition: transform 0.5s ease-in-out;
+}
+
+.classes .class h2 {
+  margin: 0;
+}
+
+.classes p {
+  margin-top: 10px;
+  color: white;
+  width: 100%;
+
+}
+
+.classes .class p {
+  margin-top: 10px;
+}
+
+.classes h2 {
+  width: 100%;
+  margin: 0;
+  color: white;
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+/* build cards to display projects */
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 50px;
+  padding: 0 50px;
+  box-sizing: border-box;
+}
+
+#projects {
+  width: 100%;
+  margin: 0;
+  color: white;
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.project {
+  width: 24.3%;
+  max-width: auto;
+  background-color: #35373b;
+  margin-bottom: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+  color: white;
+}
+
+.project:hover {
+  background-color: #2a4629;
+  transition: background-color 0.5s ease-in-out;
+  transform: scale(1.1);
+  transition: transform 0.5s ease-in-out;
+}
+
+/* carousel for the different technologies im familiar with */
+#skills {
+  width: 100%;
+  margin: 0;
+  color: white;
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: left;
+  margin-left: 50px;
+}
+
+.carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  width: 100%;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.carousel-inner {
+  display: flex;
+  width: 100%;
+  transition: transform 0.5s ease-in-out;
+  justify-content: center;
+}
+
+.carousel-item {
+  opacity: 0.75;
+  transition: opacity 0.5s ease-in-out;
+  margin: 0 10px;
+}
+
+.carousel-item:hover {
+  opacity: 1;
+  transform: scale(1.2);
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  margin: 0 auto;
+  display: block;
+}
+
+.carousel-item.active {
+  opacity: 1;
+}
+/* footer */
+.footer {
+  background-color: #171a1f;
+  color: white;
+  padding: 20px 50px;
+  box-sizing: border-box;
+  font-size: 14px;
+  text-align: center;
+  width: 100%;
+}
+
+.footer a {
+  color: #61dafb;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}

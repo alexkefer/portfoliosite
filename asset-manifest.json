@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/portfoliosite/static/css/main.d76508ad.css",
+    "main.js": "/portfoliosite/static/js/main.867de2b1.js",
+    "static/js/787.261e848f.chunk.js": "/portfoliosite/static/js/787.261e848f.chunk.js",
+    "static/media/IMG_1703.JPG": "/portfoliosite/static/media/IMG_1703.a4829a9e6c30d19a333e.JPG",
+    "static/media/logo.jpg": "/portfoliosite/static/media/logo.9a1f1a7d245db0aac9dc.jpg",
+    "static/media/linux-original.svg": "/portfoliosite/static/media/linux-original.0cb7bf4e5cb9ed5e2333d50935fad3d4.svg",
+    "static/media/react-original.svg": "/portfoliosite/static/media/react-original.4e0c97009b885bfa75c5412262a46f5f.svg",
+    "static/media/python-original.svg": "/portfoliosite/static/media/python-original.849d0b2b5f1ec20f077dd267498bd536.svg",
+    "static/media/github-original.svg": "/portfoliosite/static/media/github-original.3c903c66b2c5334c8c0b80567c4ea422.svg",
+    "static/media/java-original.svg": "/portfoliosite/static/media/java-original.a751bad6c81431ab4dd6fa6632a65540.svg",
+    "static/media/r-original.svg": "/portfoliosite/static/media/r-original.30c4ea4522be6a1d2e6d38bed80de246.svg",
+    "static/media/javascript-original.svg": "/portfoliosite/static/media/javascript-original.4c1b5332c1b1057928f6f06cf972c91c.svg",
+    "static/media/csharp-original.svg": "/portfoliosite/static/media/csharp-original.4b8080ff785d7bd4f1b95178568e9ba1.svg",
+    "static/media/git-original.svg": "/portfoliosite/static/media/git-original.c08353563539c6459b353f29d8dd7bf2.svg",
+    "index.html": "/portfoliosite/index.html",
+    "static/media/c-original.svg": "/portfoliosite/static/media/c-original.13f24c473f4fd7f944b1410cc8058a89.svg",
+    "main.d76508ad.css.map": "/portfoliosite/static/css/main.d76508ad.css.map",
+    "main.867de2b1.js.map": "/portfoliosite/static/js/main.867de2b1.js.map",
+    "787.261e848f.chunk.js.map": "/portfoliosite/static/js/787.261e848f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d76508ad.css",
+    "static/js/main.867de2b1.js"
+  ]
+}
